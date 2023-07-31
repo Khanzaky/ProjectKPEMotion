@@ -114,6 +114,18 @@ def main():
 
     else:
         st.subheader("About")
+        st.markdown("Aplikasi Kepuasan Pelanggan di STAI Al-Azhary Cianjur adalah sebuah inovasi teknologi yang dikembangkan oleh STAI Al-Azhary Cianjur untuk memantau dan meningkatkan tingkat kepuasan mahasiswa dan pelanggan lainnya terhadap layanan dan fasilitas yang disediakan oleh institusi ini. Aplikasi ini bertujuan untuk memahami dan merespons kebutuhan dan harapan pelanggan, serta memastikan bahwa kualitas pendidikan dan pelayanan yang diberikan di STAI Al-Azhary Cianjur senantiasa meningkat.")
+        st.markdown("## Fitur-fitur Utama Aplikasi Kepuasan Pelanggan:")
+        st.markdown("- **Kuesioner Kepuasan Pelanggan**: Aplikasi ini menyediakan kuesioner interaktif yang dapat diisi oleh mahasiswa dan pelanggan lainnya. Kuesioner ini berisi pertanyaan terkait berbagai aspek pelayanan dan fasilitas yang ada di kampus, seperti proses pendaftaran, kualitas pengajaran, fasilitas laboratorium, perpustakaan, dan lain sebagainya. Kuesioner ini membantu mengumpulkan data dan umpan balik dari pelanggan, sehingga manajemen dapat melakukan evaluasi dan perbaikan yang diperlukan.")
+        st.markdown("- **Analisis dan Laporan**: Aplikasi ini dilengkapi dengan fitur analisis data yang dapat menyajikan hasil survei dalam bentuk grafik dan laporan. Hal ini memungkinkan manajemen STAI Al-Azhary Cianjur untuk dengan cepat melihat tren kepuasan pelanggan, mengidentifikasi area yang memerlukan perhatian lebih, dan mengambil keputusan berdasarkan data yang telah terkumpul.")
+        st.markdown("- **Notifikasi dan Tindak Lanjut**: Aplikasi ini juga memungkinkan pemberian notifikasi kepada manajemen setiap kali ada tanggapan kuesioner yang memerlukan tindak lanjut atau penanganan lebih lanjut. Fitur ini membantu memastikan bahwa keluhan atau masalah yang diajukan pelanggan mendapatkan respon dan solusi yang tepat secara tepat waktu.")
+        st.markdown("- **Riwayat Kepuasan**: Aplikasi ini menyimpan riwayat kepuasan pelanggan dari waktu ke waktu. Data ini membantu melacak perubahan tingkat kepuasan dari semester ke semester atau dari tahun ke tahun, dan membantu membandingkan tren kepuasan antara periode waktu tertentu.")
+        st.markdown("## Manfaat Aplikasi Kepuasan Pelanggan:")
+        st.markdown("- **Meningkatkan Kualitas Layanan**: Dengan aplikasi ini, manajemen STAI Al-Azhary Cianjur dapat dengan cepat mengetahui kebutuhan dan masalah yang dihadapi pelanggan. Dengan begitu, mereka dapat melakukan perbaikan dan peningkatan layanan secara tepat waktu.")
+        st.markdown("- **Memberikan Respons yang Cepat**: Aplikasi ini memungkinkan tanggapan cepat terhadap keluhan atau masalah yang disampaikan pelanggan. Dengan begitu, pelanggan merasa didengar dan dihargai, serta menumbuhkan rasa kepercayaan terhadap institusi.")
+        st.markdown("- **Pengambilan Keputusan yang Lebih Baik**: Berkat analisis data yang disajikan oleh aplikasi, manajemen dapat mengambil keputusan yang didukung oleh data empiris dan menghindari keputusan berdasarkan asumsi semata.")
+        st.markdown("- **Peningkatan Reputasi dan Daya Saing**: Dengan terus meningkatkan kualitas layanan berdasarkan umpan balik pelanggan, STAI Al-Azhary Cianjur dapat memperkuat reputasi sebagai institusi pendidikan yang peduli dan responsif terhadap kebutuhan mahasiswa.")
+        st.markdown("Dengan Aplikasi Kepuasan Pelanggan di STAI Al-Azhary Cianjur, institusi ini dapat bergerak maju menuju tingkat keunggulan dalam memberikan pendidikan dan pelayanan yang terbaik untuk para pelanggannya.")
         add_page_visited_details("About", datetime.now())
 
 if __name__ == '__main__':
